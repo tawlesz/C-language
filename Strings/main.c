@@ -9,7 +9,7 @@ int main(void){
 
 
     printf("Digite algo na tela (com leitura convencional): \n");
-    scanf("%s", frase); // deixa você ler mais posições do que o vetor comum, e impossibilita espaços.
+    scanf("%s", frase); // deixa você ler mais posições do que o vetor comum com tamanho declarado, e impossibilita espaços.
     printf("Resultado: %s\n\n", frase);
     fflush(stdin); 
 
@@ -33,7 +33,7 @@ int main(void){
 
 
     printf("Digite alguma coisa (leitura com fgets): ");
-    fgets(frase, 10, stdin); //lê espaços com sintaxe simples e limita tamanho do vetor.
+    fgets(frase, 10, stdin); //lê espaços, possui sintaxe simples, e limita tamanho do vetor.
     fflush(stdin);
     puts(frase);
 */

@@ -4,7 +4,7 @@
 /* pow (potenciação); 
 sqrt (radiciação); 
 floor (retorna parte inteira, elimina parte fracionária); 
-ceil (elimina casa decimal e soma mais um, pegado o proximo valor inteiro); 
+ceil (elimina casa decimal e soma mais um, pegando o proximo valor inteiro); 
 sin (graus para radianos); 
 log e log10 (retorna o valor do logaritmo nas respectivas bases - 2 e 10); 
 sin/cos/tan (seno, cosseno, tangente); */
