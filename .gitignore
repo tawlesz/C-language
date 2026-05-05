@@ -1,0 +1,9 @@
+# executáveis
+*.exe
+
+# pastas de build
+output/
+
+# arquivos temporários
+*.o
+*.obj
