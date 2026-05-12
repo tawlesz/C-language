@@ -2,6 +2,11 @@
 
 int soma2(int x, int y){
     return(x + y);
+    /*
+        int a;
+        a = x + y;
+        printf("O valor somado é: %d\n", a);
+    */
 }
 
 int main(void){
