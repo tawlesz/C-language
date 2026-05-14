@@ -1,6 +1,6 @@
 /*
 Faça um algoritmo que usa uma função para o cálculo do volume de uma esfera, sendo que o raio é passado por parâmetro.
-V = 4/3 * PI * pow(R,3)
+V = 4.0/3 * PI * pow(R,3)
 */
 
 #include <stdio.h>
