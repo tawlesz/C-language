@@ -8,9 +8,9 @@ int dobrarIteiro(int n){return(n*2);}
 
 int main(){
 
-    int n, v;
+    int n, res;
     scanf("%d", &n);
-    v = dobrarIteiro(n);
-    printf("%d",v);
+    res = dobrarIteiro(n);
+    printf("%d",res);
     
 }
