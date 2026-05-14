@@ -31,6 +31,7 @@ float fazerOperacao(float x, float y, char op){
 
 int main(){
     float x, y, res; 
+    char s = '+', m = '-', v = '*', d = '/';
     char op;
     fflush(stdin);
     printf("Digite dois valores a serem calculados: ");
@@ -44,6 +45,12 @@ int main(){
 
     fflush(stdin);
     scanf("%c", &op);
+    while(op != s || op != m || op != v || op !=       d){
+    printf("Digite a operação desejada ('/' '*' '-' '+'): ");
+
+    fflush(stdin);
+    scanf("%c", &op);
+}
     res = fazerOperacao(x, y, op);
     printf("O resultado eh: %.1f", res);
 
