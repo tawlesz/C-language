@@ -7,7 +7,7 @@ V = 4.0/3 * PI * pow(R,3)
 #include <math.h>
 #define PI 3.14159
 
-float calcularVolume(float raio){return(4/3*PI * pow(raio, 3));}
+float calcularVolume(float raio){return(4.0/3*PI * pow(raio, 3));}
 
 int main(){
 
