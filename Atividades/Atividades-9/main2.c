@@ -12,20 +12,36 @@ a saída para n = 4 seria:
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int triangulo(int n){
     int h = 2*n-1;
-    int w = n;
+    
+    for(int i = 1; i <= n; i++){
+   
+        for (int j = 0; j < i; j++){
+            printf("*");
+        }
+        printf("\n");
+    }    
 
-    for(int i = 0; i < h; i++){
-        printf("*");
+
+    for (int i = n; i > 0 ; i--)
+    {
         
+        for (int j = 0; j < i-1; j++)
+        {
+            printf("*");
+        }
+        
+        printf("\n");
     }
-}
+    
 
+}
 int main(void){
     int n;
-    scanf("%f", &n);
+    scanf("%d", &n);
     triangulo(n);
 
     return 0;
