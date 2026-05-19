@@ -46,11 +46,11 @@ int main(){
     fflush(stdin);
     scanf("%c", &op);
     while(op != s || op != m || op != v || op !=       d){
-    printf("Digite a operação desejada ('/' '*' '-' '+'): ");
+        printf("Digite a operação desejada ('/' '*' '-' '+'): ");  
 
-    fflush(stdin);
-    scanf("%c", &op);
-}
+        fflush(stdin);
+        scanf("%c", &op);
+    }
     res = fazerOperacao(x, y, op);
     printf("O resultado eh: %.1f", res);
 
