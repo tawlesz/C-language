@@ -6,20 +6,24 @@
 #include <stdlib.h>
 int main(void){
     system("cls");
-    // int test;
-    
-    // int a = sizeof(test);
-    // printf("%d", a);
+    int a;
 
     char letra = 'a';
     int num = 2;
     float r = 2.3;
     double d = 2.4;
-    printf("%c\n", letra);
+    printf("\n");
     printf("%x\n", &letra);
+    printf("%d bytes\n", a = (sizeof(letra)));
+    printf("\n");
     printf("%x\n", &num);
+    printf("%d bytes\n", a = (sizeof(num)));
+    printf("\n");
     printf("%x\n", &r);
+    printf("%d bytes\n", a = (sizeof(r)));
+    printf("\n");
     printf("%x\n", &d);
+    printf("%d bytes\n", a = (sizeof(d)));
     return 0;
     
 }
