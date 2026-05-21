@@ -13,10 +13,10 @@ a saída para n = 4 seria:
 
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 int triangulo(int n){
-    int h = 2*n-1;
-    
+    system("cls");
     for(int i = 1; i <= n; i++){
    
         for (int j = 0; j < i; j++){
