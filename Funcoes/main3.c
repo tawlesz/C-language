@@ -14,7 +14,7 @@ int referencia(int *p){
 int main(void){
     int v = 12;
     printf("valor da variável %d antes da função por referência\n", v);
-    referencia(&v);//passa o endereço de memódia do valor
+    referencia(&v); //passa o endereço de memória do valor
     printf("valor da variável %d após da função por referência\n", v);
     return 0;
 }
