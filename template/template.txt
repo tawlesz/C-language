@@ -1,0 +1,5 @@
+para usar o snippet do c já configurado (cole o snipped template disposto no template.json dentro do arquivo c.json)
+
+para usar ativamente dentro de projetos digite "cbase" e aperte enter ou tab
+
+cbase + ENTER

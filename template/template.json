@@ -1,0 +1,16 @@
+{
+	"Template para linguagem C": {
+		"prefix": "cbase",
+		"body": [
+			"#include <stdio.>",
+			"#include <stdlib.h>",
+			"",
+			"int main(void) {",
+			"    system(\"cls\");",
+			"    $0",
+			"    return 0;",
+			"}"
+		],
+		"description": "Estrutura para C"
+	}
+}
